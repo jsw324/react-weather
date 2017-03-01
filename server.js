@@ -16,5 +16,5 @@ app.use(function (req, res, next) {
 app.use(express.static('public'));
 
 app.listen(PORT, () => {
-  console.log('Express server is up on port 3500 ' + port);
+  console.log('Express server is up on port ' + PORT);
 });
